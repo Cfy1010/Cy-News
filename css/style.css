@@ -1,0 +1,53 @@
+/* *** LEFT *** */
+#left {
+    width: 50%;
+    height: 100vh;
+    background-image: url('../images/woman_playing_electric_guitar.jpg');
+    background-size:cover;
+    /* background-position: center; */
+    float: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 2em 1em;
+
+}
+
+h1 {
+    background-image: url(../images/cyNews.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0 10px;
+    padding-left: 45px;
+    /* text-transform: uppercase; */
+}
+h2 span {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+#welcome-message {
+    width: 75%;
+    align-self: flex-end;
+    text-align: end;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav a {
+    color:#fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+/* *** RIGHT *** */
+#right {
+    width: 50%;   
+    float: right;
+}
