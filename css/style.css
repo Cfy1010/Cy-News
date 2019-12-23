@@ -1,4 +1,8 @@
 /* *** LEFT *** */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 #left {
     width: 50%;
     height: 100vh;
