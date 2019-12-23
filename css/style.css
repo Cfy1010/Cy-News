@@ -51,3 +51,24 @@ nav a {
     width: 50%;   
     float: right;
 }
+
+#right h2 {
+    padding: 1em;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* L'ulitisation du float pose un probleme suivant la hauteur des articles. Flexbox est plus judicieux */
+article {
+    width: 50%;
+    /* float: left; */
+    border: 1px solid #eaeaea;
+    padding: 1em;
+    border-bottom: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+
+#articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
