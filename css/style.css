@@ -50,6 +50,10 @@ nav a {
 #right {
     width: 50%;   
     float: right;
+
+    /* ajout d'une barre de scroll */
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 #right h2 {
@@ -71,4 +75,52 @@ article {
 #articles-list {
     display: flex;
     flex-wrap: wrap;
+}
+
+.badge {
+    text-transform: uppercase;
+    background-color: grey;
+    font-size: 0.8em;
+    color:white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0.3em 0.5em;
+}
+
+.badge:hover {
+    color: #fff;
+}
+
+.badge--work {
+   background-color:#0766F0;
+}
+.badge--team {
+   background-color:#DC5E53;
+}
+.badge--news {
+   background-color:#98DC62;
+}
+
+h3 {
+    margin: 1em;
+}
+
+article img {
+    width: 1.5em;
+    margin-right: 5px;
+}
+
+.meta-author {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 1em 0;
+}
+.meta-date {
+    color: #999;
+    font-size: 0.8em;
+}
+
+.continue {
+    font-weight: bold;
+    text-decoration: underline;
 }
